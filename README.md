@@ -1,0 +1,1 @@
+# IDGD-TypeClass
