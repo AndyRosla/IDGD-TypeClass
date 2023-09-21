@@ -1,0 +1,198 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Ejercicio Menu</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+    body {
+      text-align: center;
+      background-image: url("dirt.png");
+      background-color: rgb(62, 39, 9);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .container {
+      margin: 0px auto;
+      padding-top: 10px;
+      padding-left: 100px;
+      padding-right: 100px;
+      padding-bottom: 50px;
+      text-align: center;
+      background-color: white;
+      width: 600px;
+    }
+
+    .column {
+      float: left;
+      width: 50%;
+      padding: 10px;
+      font-family: 'VT323', sans-serif;
+      color: rgb(255, 170, 0);
+      text-align: left;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+      content: " ";
+      display: table;
+      clear: both;
+    }
+
+    h1 {
+      font-family: 'VT323', serif;
+      color: rgb(255, 170, 0);
+      font-size: 72px;
+    }
+
+    h2 {
+      font-family: 'Silkscreen', sans-serif;
+      color: rgb(92, 220, 255);
+      font-weight: 200;
+      font-size: 32px;
+      padding-top: 10px;
+    }
+
+    p {
+      font-family: 'Silkscreen', sans-serif;
+      color: rgb(78, 76, 237);
+      font-size: 15px;
+      padding-top: 10px;
+    }
+
+    h3 {
+      font-family: 'Silkscreen', sans-serif;
+      color: rgb(255, 170, 0);
+      font-weight: 200;
+      font-size: 15px;
+      padding-top: 10px;
+      text-align: left;
+    }
+
+    h4 {
+      font-family: 'Silkscreen', sans-serif;
+      color: rgb(232, 41, 73);
+      font-weight: 200;
+      font-size: 15px;
+      padding-top: 2px;
+      padding-bottom: 2px;
+      text-align: left;
+    }
+
+    h5 {
+      font-family: 'Silkscreen', sans-serif;
+      color: rgb(41, 184, 232);
+      font-weight: 200;
+      font-size: 15px;
+      padding-top: px;
+      padding-bottom: 1px;
+      text-align: left;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1> </h1>
+    <img src="map.png" style="width:15%;max-width:1000px">
+
+    <h1>Menú</h1>
+    <h2>"Where Flavor Meets Adventure!"</h2>
+    </br>
+    <p><strong>Opening hours:</strong> 1:00pm - 10:00pm</p>
+
+    <img src="Beer.png" style="width:15%;max-width:1000px">
+
+    <h3><strong>Beverages:</strong> from 12pm to 9pm.</h3>
+    <div class="row">
+      <div class="column">
+        <h3>Non-alcoholic</h3>
+        <h4>Sodas - $2.49</h4>
+        <h4>Lemonade - $1.30</h4>
+        <h4>Iced Teas - $2.29</h4>
+        <h4>Milkshakes - $4.99</h4>
+        <h4>Water - $1.49</h4>
+      </div>
+      <div class="column">
+        <h3>Alcoholic</h3>
+        <h4>Beer - $4</h4>
+        <h4>Craft Beer - $6.49</h4>
+        <h4>Red Wine - $7.99</h4>
+        <h4>White Wine - $7.99</h4>
+      </div>
+    </div>
+
+    <img src="Mutton.png" style="width:15%;max-width:1000px">
+
+    <h3><strong>Burgers and Sides:</strong></h3>
+    <div class="row">
+      <div class="column">
+        <h3>Burgers</h3>
+        <h5>Cheeseburger - $9.99</h5>
+        <h5>Bacon BBQ Burger - $10.99</h5>
+        <h5>Mushroom Swiss Burger - $11.49</h5>
+        <h5>Veggie Burger - $9.49</h5>
+        <h5>Spicy Jalapeno Burger - $10.79</h5>
+
+      </div>
+      <div class="column">
+        <h3>Sides</h3>
+        <h5>French Fries - $3.49</h5>
+        <h5>Sweet Potato Fries - $4.29</h5>
+        <h5>Onion Rings - $4.99</h5>
+        <h5>Caesar Side Salad - $3.99</h5>
+        <h5>Loaded Nachos - $7.99</h5>
+
+      </div>
+    </div>
+
+    <img src="Cake1.png" style="width:15%;max-width:1000px">
+
+    <h3><strong>Extras and Desserts:</strong></h3>
+    <div class="row">
+      <div class="column">
+        <h3>Extras</h3>
+        <h5>Extra Cheese - $1.00</h5>
+        <h5>Bacon Strips - $1.50</h5>
+        <h5>Avocado - $1.50</h5>
+        <h5>Fried Egg - $1.25</h5>
+
+      </div>
+      <div class="column">
+        <h3>Sides</h3>
+        <h5>Brownie Sundae - $5.49</h5>
+        <h5>Apple Pie - $4.99</h5>
+        <h5>Chocolate Lava Cake - $5.99</h5>
+      </div>
+    </div>
+
+    <h3> </h3>
+    <div class="row">
+      <div class="column">
+        <img src="Apple.gif" style="width:15%">
+        <img src="Cake.png" style="width:15%">
+        <img src="Cookie.png" style="width:15%">
+        <img src="Chilaquiles.png" style="width:15%">
+        <img src="Chicken.png" style="width:15%">
+      </div>
+      <div class="column">
+        <img src="GoldenApple.png" style="width:15%">
+        <img src="Bread.png" style="width:15%">
+        <img src="Melon.png" style="width:15%">
+        <img src="Salmon.png" style="width:15%">
+        <img src="WaterBottle.png" style="width:15%">
+      </div>
+
+    </div>
+
+    <p><strong>Address:</strong> Av. Cetys Universidad.4, El Lago, 22210 Tijuana, B.C.</p>
+  </div>
+</body>
+
+</html>
