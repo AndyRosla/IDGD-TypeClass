@@ -16,7 +16,7 @@ IDGD-TypeClass is a portfolio project created for a web font design class. The p
 
 ## Introduction
 
-IDGD-TypeClass is a portfolio project designed to demonstrate your skills in combining fonts. While you are not creating the fonts themselves, you are learning how to effectively use them in web design. The project consists of an "INDEX.html" file that links to four additional pages, each representing one of your class assignments. Its primary purpose is to showcase your work to your classmates and teacher.
+IDGD-TypeClass is a portfolio project designed to demonstrate skills in combining fonts. While we're not creating the fonts ourselves, we are learning how to effectively use them in web design. The project consists of an "INDEX.html" file that links to four additional pages, each representing one of my class assignments. Its primary purpose is to showcase my work to my classmates and teacher.
 
 ## Features
 
@@ -57,7 +57,7 @@ To run the project locally, follow these steps:
 
 ## Usage
 
-The project is designed to showcase your font combination skills and your class assignments. You can navigate through the different assignments by clicking on the links provided in the "INDEX.html" file.
+The project is designed to showcase my font combination skills and your class assignments. You can navigate through the different assignments by clicking on the links provided in the "INDEX.html" file.
 
 ## Contributing
 
